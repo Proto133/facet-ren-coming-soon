@@ -4,9 +4,43 @@
 
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #9945ff, #ffff, #14f195);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  overflow-x: hidden;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.logo {
+  flex: 1 0 100%;
+  max-width: 800px;
+  max-height: auto;
+}
+
+.text {
+  flex: 1;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'EVO 2', sans-serif;
 }
 
 nav {
