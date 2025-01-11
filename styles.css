@@ -33,6 +33,11 @@ main {
   align-items: center;
 }
 
+main section {
+  flex: 0 0 80%;
+
+}
+
 .logo {
   flex: 1 0 100%;
   max-width: 800px;
@@ -77,9 +82,7 @@ nav a[aria-current='page'] {
   background-color: #9945ff7e;
 }
 
-main {
-  padding: 1rem;
-}
+
 
 h1 {
   font-weight: bold;
