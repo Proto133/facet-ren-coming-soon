@@ -5,10 +5,6 @@
 body {
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   background: linear-gradient(135deg, #9945ff, #ffff, #14f195);
   background-size: 400% 400%;
@@ -28,6 +24,13 @@ body {
   100% {
     background-position: 0% 50%;
   }
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
