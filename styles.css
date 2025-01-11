@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=EVO+2&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -10,6 +12,8 @@ body {
   background-size: 400% 400%;
   animation: gradientAnimation 15s ease infinite;
   overflow-x: hidden;
+  font-family: 'EVO 2', sans-serif;
+  /* Apply the font to all text by default */
 }
 
 @keyframes gradientAnimation {
@@ -35,7 +39,6 @@ main {
 
 main section {
   flex: 0 0 80%;
-
 }
 
 .logo {
@@ -48,7 +51,6 @@ main section {
   flex: 1;
   text-align: center;
   font-size: 2rem;
-  font-family: 'EVO 2', sans-serif;
 }
 
 nav {
@@ -81,8 +83,6 @@ nav a[aria-current='page'] {
   color: #000;
   background-color: #9945ff7e;
 }
-
-
 
 h1 {
   font-weight: bold;
